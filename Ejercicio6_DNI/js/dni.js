@@ -1,7 +1,9 @@
+var letrasDNI = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K','E', 'T'];
+var dni, letra, aux;
+
 function myDni(){
-    var letrasDNI = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K','E', 'T'];
-    let dni = prompt("Ingrese DNI");
-    let letra = prompt("Ingrese letra").toUpperCase;
+    dni = prompt("Ingrese DNI");
+    letra = prompt("Ingrese letra").toUpperCase();
     let resto, letraUbicada;
 
     if(dni < 0 || dni > 99999999) {
@@ -17,5 +19,3 @@ function myDni(){
     }
 
 }
-
-document.getElementById("dni").innerHTML += myDni();

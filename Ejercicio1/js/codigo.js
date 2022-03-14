@@ -1,10 +1,11 @@
-//console.log("hola Mundo!");
-//alert("hola");
+alert("Aviso a los navegadores que no tengan JavaScript");
 
-// uso del ID PARA AGREGAR ELEMENTO NUEVO
+function entra() {
+    alert("hola, es el primer script");
+    document.getElementById("agrega").innerHTML+="Soy el primer script";
+}
 
-//document.getElementById("agrega").innerHTML+="Soy el primer script";
-
-let mensaje = "Hola Mundo! \nQué facil es incluir 'comillas simples' \ny ''comillas dobles''";
-
-alert(mensaje);
+function sale() {
+    alert("ya no me verás");
+    document.getElementById("agrega").innerHTML = " ";
+}
