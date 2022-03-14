@@ -1,15 +1,7 @@
-body {
-    background-color: bisque;
-    
-}
-
 main {
-    margin: 20%;
-}
-
-form    {
-    height: max-content;
-    width: max-contents;
+    margin: 10%;
+    background-color:  bisque; 
+    padding: 60px;
 }
 
 #etiqueta, #numero {
